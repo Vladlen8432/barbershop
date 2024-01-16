@@ -909,7 +909,7 @@ button {
 /* '.container-box-l' for tablet has the same properties */
 
 @media screen and (min-width: 1280px) {
-  .container-box-l{
+  .container-box-l {
     margin-top: 0;
   }
 }
@@ -924,7 +924,7 @@ button {
 /* '.container-box-r' for tablet has the same properties */
 
 @media screen and (min-width: 1280px) {
-  .container-box-r{
+  .container-box-r {
     margin-top: 35px;
   }
 }
@@ -1014,7 +1014,7 @@ button {
   letter-spacing: 2.1px;
 }
 
-/* '.client-count' for tablet has the same properties */
+/* '.client-count' for tablet and desktop has the same properties */
 
 .client-count::after {
   content: '+';
@@ -1024,7 +1024,7 @@ button {
   margin-bottom: 20px;
 }
 
-/* '.client-count::after' for tablet has the same properties */
+/* '.client-count::after' for tablet and desktop has the same properties */
 
 .client-text {
   color: var(--black-color);
@@ -1034,4 +1034,598 @@ button {
   max-width: 122px;
 }
 
-/* '.client-text' for tablet has the same properties */
+/* '.client-text' for tablet and desktop has the same properties */
+
+/* ========== SECTION FOUR ========== */
+
+.section-four {
+  background-color: var(--light-gray);
+}
+
+.container-section-four {
+  padding-top: 84px;
+  padding-bottom: 20px;
+  max-width: 420px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-section-four {
+    padding-top: 100px;
+    padding-bottom: 36px;
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-section-four {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    max-width: 1168px;
+  }
+}
+
+.sub-title-section-four {
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+  color: var(--black-color);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+/* '.sub-title-section-four' for tablet and desktop has the same properties */
+
+.sub-title-section-four::before {
+  display: inline-block;
+  content: '';
+  background-color: var(--black-color);
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+}
+
+/* '.sub-title-section-four::before' for tablet and desktop has the same properties */
+
+.header-section-four {
+  margin-top: 20px;
+  color: var(--black-color);
+  font-family: 'Raleway';
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2.1px;
+}
+
+/* '.header-section-four' for tablet and desktop has the same properties */
+
+.container-team-main {
+  margin-top: 44px;
+}
+
+/* 'container-team-main' for tablet has the same properties */
+
+@media screen and (min-width: 1280px) {
+  .container-team-main {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.team-img {
+  width: 100%;
+  height: 346px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-img {
+    display: none;
+  }
+}
+
+.team-img-tab {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .team-img-tab {
+    display: block;
+    width: 100%;
+    height: 346px;
+  }
+}
+
+.team-img-desk {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .team-img-desk {
+    display: block;
+    width: 370px;
+    height: 346px;
+  }
+
+  .team-img-tab {
+    display: none;
+  }
+}
+
+.staff-name {
+  margin-top: 30px;
+  color: var(--black-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+}
+
+/* '.staff-name' for tablet has the same properties */
+
+.staff-descr {
+  color: var(--orange-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  margin-top: 8px;
+}
+
+/* '.staff-descr' for tablet has the same properties */
+
+.social-container-section-four {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 64px;
+}
+
+/* '.social-container-section-four' for tablet has the same properties */
+
+@media screen and (min-width: 1280px) {
+  .social-container-section-four {
+    margin-bottom: 0;
+  }
+}
+
+.social-link-section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+}
+
+/* '.social-link-section-four' for tablet has the same properties */
+
+.social-icon-section-four {
+  transition: fill 0.3s ease;
+}
+
+/* '.social-link-section-four' for tablet has the same properties */
+
+.social-link-section-four:hover .social-icon-section-four,
+.social-link-section-four:focus .social-icon-section-four {
+  fill: var(--orange-color);
+}
+
+/* '.social-link-section-four:hover .social-icon-section-four,
+.social-link-section-four:focus .social-icon-section-four' for tablet has the same properties */
+
+/* ========== SECTION FIVE ========== */
+
+.container-section-five {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  max-width: 420px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-section-five {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-section-five {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    max-width: 1168px;
+  }
+}
+
+.sub-title-section-five {
+  display: flex;
+  align-items: center;
+  color: var(--black-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.sub-title-section-five::before {
+  display: inline-block;
+  content: '';
+  background-color: var(--black-color);
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+}
+
+.container-img-section-five-mob {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 44px;
+}
+
+.container-img-section-five-tab,
+.container-img-section-five-desk {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container-img-section-five-mob {
+    display: none;
+  }
+
+  .container-img-section-five-tab {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 44px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-img-section-five-tab {
+    display: none;
+  }
+
+  .container-img-section-five-desk {
+    display: flex;
+    gap: 30px;
+    margin-top: 44px;
+  }
+}
+
+.section-five-img {
+  width: 100%;
+  height: 360px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-five-img {
+    width: 330px;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-five-img {
+    width: 270px;
+    height: 360px;
+  }
+}
+
+/* ========== SECTION SIX ========== */
+
+@media screen and (min-width: 1280px) {
+  .section-six {
+    display: flex;
+  }
+}
+
+.section-six-bg-one {
+  background-color: #191c26;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-six-bg-one {
+    width: 50%;
+  }
+}
+
+/* '.section-six-bg-one' for tablet and desktop has the same properties */
+
+.container-section-six {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  max-width: 420px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-section-six {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-section-six {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    max-width: 1168px;
+  }
+}
+
+.header-form {
+  color: var(--white-color);
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2.1px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-form {
+    text-align: left;
+  }
+}
+
+.form-sec-six {
+  display: flex;
+  flex-direction: column;
+  row-gap: 44px;
+  margin-top: 47px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-sec-six {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 22px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .form-sec-six {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.input-sec-six {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  width: 100%;
+  height: auto;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  caret-color: var(--white-color);
+  transition: border 0.3s ease;
+  color: var(--white-color);
+}
+
+@media screen and (min-width: 768px) {
+  .input-sec-six {
+    width: 330px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .input-sec-six {
+    width: 270px;
+  }
+}
+
+.input-sec-six:focus {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--white-color);
+}
+
+/* '.input-sec-six:focus' for tablet and desktop has the same properties */
+
+.messagese-sex-six {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+  caret-color: var(--white-color);
+  color: var(--white-color);
+  transition: color 0.3s ease;
+}
+
+/* '.input-sec-six:focus' for tablet and desktop has the same properties */
+
+.messagese-sex-six:focus {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--white-color);
+  transition: border 0.3s ease;
+}
+
+/* '.input-sec-six:focus' for tablet and desktop has the same properties */
+
+.button-form {
+  width: 160px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--white-color);
+  background-color: transparent;
+  border: 1px solid var(--orange-color);
+  border-radius: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.08px;
+  transition: background-color 0.3s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .button-form {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+.button-form:hover,
+.button-form:focus {
+  background-color: var(--orange-color);
+}
+
+/* '.button-form:hover,
+.button-form:focus' for tablet and desktop has the same properties */
+
+.section-six-bg-two {
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.9),
+      rgba(25, 28, 38, 0.9)
+    ),
+    url('../images/mobile/contact-bg2x.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .section-six-bg-two {
+    background-image: linear-gradient(
+        rgba(25, 28, 38, 0.9),
+        rgba(25, 28, 38, 0.9)
+      ),
+      url('../images/tablet/contact-bg2x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-six-bg-two {
+    background-image: linear-gradient(
+        rgba(25, 28, 38, 0.9),
+        rgba(25, 28, 38, 0.9)
+      ),
+      url('../images/desktop/contact-bg2x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+  }
+}
+
+.header-contact {
+  color: var(--white-color);
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2.1px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-contact {
+    text-align: left;
+  }
+}
+
+.contact-address-section-six {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-style: normal;
+  margin-top: 40px;
+}
+
+.contact-link-sec-six {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-icon {
+  fill: var(--lavender-mist);
+}
+
+.location-par {
+  color: var(--lavender-mist);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-par {
+    max-width: 200px;
+  }
+}
+
+.phone-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.phone-item {
+  color: var(--lavender-mist);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+}
+
+.mail-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sub-title-section-six {
+  display: flex;
+  align-items: center;
+  color: var(--white-color);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  margin-top: 44px;
+}
+
+.sub-title-section-six::before {
+  display: inline-block;
+  content: '';
+  background-color: rgba(157, 164, 189, 0.4);
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+}
+
+.container-contact{
+  display: flex;
+  gap: 30px;
+}
+
+.working-days {
+  color: var(--lavender-mist);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  margin-top: 20px;
+}
