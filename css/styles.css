@@ -1,0 +1,209 @@
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 688px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding-right: 55px;
+    padding-left: 55px;
+    width: 1170px;
+  }
+}
+
+/* ==================== Header ==================== */
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-header {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.list-navigation {
+  display: flex;
+  gap: 22px;
+}
+
+.list-navigation-item {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.link-navigation {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  transition: color 0.3s ease;
+}
+
+.link-navigation:hover,
+.link-navigation:focus {
+  color: #ff6c00;
+}
+
+.navigation,
+.container-phone-btn {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: block;
+    margin-left: 70px;
+  }
+
+  .container-phone-btn {
+    display: block;
+  }
+
+  .link-phone {
+    display: none;
+  }
+
+  .btn {
+    width: 160px;
+    height: 40px;
+    margin-left: 24px;
+    background-color: transparent;
+    border: 1px solid #ff6c00;
+    border-radius: 25px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background-color: #ff6c00;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .list-navigation {
+    gap: 40px;
+  }
+
+  .container-phone-btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: 294px;
+  }
+
+  .link-phone {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+
+  .link-phone:hover,
+  .link-phone:focus {
+    color: #ff6c00;
+  }
+
+  .btn {
+    margin: 0;
+  }
+}
+
+.burger-menu {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+}

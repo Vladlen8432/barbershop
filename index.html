@@ -3,8 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Barbershop</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- ==================== Header ==================== -->
+
+    <header class="header">
+      <div class="container container-header">
+        <a href="#" class="logo-link-home"
+          ><img class="logo" src="./images/main-logo-white-min.png" alt="logo"
+        /></a>
+
+        <nav class="navigation">
+          <ul class="list list-navigation">
+            <li class="list-navigation-item">
+              <a class="link link-navigation" href="#">Про нас</a>
+            </li>
+            <li class="list-navigation-item">
+              <a class="link link-navigation" href="#">Послуги та ціни</a>
+            </li>
+            <li class="list-navigation-item">
+              <a class="link link-navigation" href="#">Майстри</a>
+            </li>
+            <li class="list-navigation-item">
+              <a class="link link-navigation" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="container-phone-btn">
+          <a class="link link-phone" href="tel:+380441111111" class="phone"
+            >+38 (044) 111-11-11</a
+          >
+          <button class="btn" type="button">онлайн-запис</button>
+        </div>
+
+        <svg class="burger-menu">
+          <use
+            class="icon-burger"
+            href="./images/sprite.svg#icon-burger-menu"
+          ></use>
+        </svg>
+      </div>
+    </header>
+  </body>
 </html>
